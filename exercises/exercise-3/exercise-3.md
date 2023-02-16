@@ -16,6 +16,12 @@ QTY     ITEM                TOTAL
 1       Sausage McMuffin    3.00
 2       Hot Coffee          2.00
 4       Hash Brown          1.60
-
+QTY     ITEM                TOTAL
+1      Hot cakes           2.29
+2      Apple Pie           1.39
+1      Egg McMuffin        2.8
+1      Sausage McMuffin    3
+2      Hot Coffee          1
+4      Hash Brown          0.4
 Total: 14.47
 ```

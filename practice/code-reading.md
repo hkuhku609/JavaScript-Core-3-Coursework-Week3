@@ -16,6 +16,8 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+> variable scope different. The variable x on the line 4 is LOCAL variable in function f1() so console.log(x) on the line 5 will output 2. The variable x on the line is GLOBAL variable so console.log(x) on the line 7 will output 1.
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +36,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+> console.log(f1()) output 10. console.log(y) output undefined because the y variable is in the function f1() so console.log(y) can't access it from outside of the function.
 
 ## Question 3
 
@@ -62,3 +66,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+> x=9,y={x:10} because x is global variable and f1's increment only in f1 so x still output 9. y is same from x but y is object that pass by reference so it will be {x:10}
